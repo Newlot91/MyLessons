@@ -77,10 +77,13 @@ namespace MyLib
         {
             string result = "";
             char[] charArray = new char[uri.Length];
+            int countForData = 1;
             for (int i = 0; i < uri.Length; i++)
-            {
+            {   
                 if (uri[i] == ':')
                     break;
+                Array.Resize(ref charArray, countForData);
+                countForData++;
                 charArray[i] = uri[i];
             }
             return result = new string(charArray);
