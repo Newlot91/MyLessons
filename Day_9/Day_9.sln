@@ -15,9 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task_1", "Task_1\Task_1.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLib", "MyLib.Day_9\MyLib.csproj", "{850C64D3-2729-4CAD-B0D5-B5759028D9A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mylib.Tests", "Mylib.Tests\Mylib.Tests.csproj", "{97AF4946-E282-4356-B0FF-531EE5D218BA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibTests", "MyLibTests\MyLibTests.csproj", "{F683FA50-47E5-469B-9CFA-8DA83467C03A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLibTests", "MyLibTests\MyLibTests.csproj", "{F683FA50-47E5-469B-9CFA-8DA83467C03A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{850C64D3-2729-4CAD-B0D5-B5759028D9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{850C64D3-2729-4CAD-B0D5-B5759028D9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{850C64D3-2729-4CAD-B0D5-B5759028D9A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97AF4946-E282-4356-B0FF-531EE5D218BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97AF4946-E282-4356-B0FF-531EE5D218BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97AF4946-E282-4356-B0FF-531EE5D218BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97AF4946-E282-4356-B0FF-531EE5D218BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F683FA50-47E5-469B-9CFA-8DA83467C03A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F683FA50-47E5-469B-9CFA-8DA83467C03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F683FA50-47E5-469B-9CFA-8DA83467C03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
