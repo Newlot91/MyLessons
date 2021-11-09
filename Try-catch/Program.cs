@@ -9,40 +9,21 @@ namespace Try_catch
             try
             {
                 NullRefExepcion(null);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Exception: {ex.Message}");
-                Console.WriteLine($"Method: {ex.TargetSite}");
-                Console.WriteLine($"Stack trace: {ex.StackTrace}");
-                Console.WriteLine();
-            }
 
-            try
-            {
-                int[] nums=new int [2];
+                int[] nums = new int[2];
                 IndexOutOfRange(nums, 5);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Exception: {ex.Message}");
-                Console.WriteLine($"Method: {ex.TargetSite}");
-                Console.WriteLine($"Stack trace: {ex.StackTrace}");
-                Console.WriteLine();
-            }
 
-            try
-            {
                 Object obj = "one";
                 int aa = (Int32)obj;
             }
-            catch (InvalidCastException ex)
+            catch (Exception ex)
             {
                 Console.WriteLine($"Exception: {ex.Message}");
                 Console.WriteLine($"Method: {ex.TargetSite}");
                 Console.WriteLine($"Stack trace: {ex.StackTrace}");
                 Console.WriteLine();
             }
+
             //With throw
             void NullRefExepcion(string line)
             {
